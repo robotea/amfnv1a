@@ -1,5 +1,5 @@
 cmake-build-debug/*
 cmake-build-release/*
 lib/*
-AMExeptionConfig.h
+AMFNV1aConfig.h
 html/*
