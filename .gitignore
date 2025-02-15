@@ -3,3 +3,4 @@ cmake-build-release/*
 lib/*
 AMFNV1aConfig.h
 html/*
+dependencies/*
