@@ -6,7 +6,10 @@ There are two variants, 32 and 64 bit. If parameter string is an *constexpr* exp
 
 Let's have switch statement by text...
 
+    #include <iostream>
     #include "amfnv1a/AMCEFNV1a.h"
+
+    using namespace std;
 
     cout << "Enter password (color of blood): ";
    	char pass[1024];
@@ -15,16 +18,16 @@ Let's have switch statement by text...
 
    	switch (hash)
    	{
-       	case AMCEFNV1aAlgorithm::fnv1a64("blue"): cout<<"Fail"<<endl;break;
-       	case AMCEFNV1aAlgorithm::fnv1a64("green"): cout<<"Fail"<<endl;break;
-       	case AMCEFNV1aAlgorithm::fnv1a64("red"): cout<<"Hooray!"<<endl;break;
-       	case AMCEFNV1aAlgorithm::fnv1a64("yellow"): cout<<"Fail"<<endl;break;
+       	case AMCEFNV1aAlgorithm::fnv1a64("blue"): cout<<"Fail"<<endl; break;
+       	case AMCEFNV1aAlgorithm::fnv1a64("green"): cout<<"Fail"<<endl; break;
+       	case AMCEFNV1aAlgorithm::fnv1a64("red"): cout<<"Hooray!"<<endl; break;
+       	case AMCEFNV1aAlgorithm::fnv1a64("yellow"): cout<<"Fail"<<endl; break;
        	default: cout<<"Fail"<<endl;
    	}
 
 ## Documetation
 
-There are doxygen generated documentation [here on libandromeda.org](http://libandromeda.org/amfnv1a/latest/).
+There are doxygen generated documentation [here on andromeda.robotea.com](http://andromeda.robotea.com/amfnv1a/latest/).
 
 ## Building AMFNV1a
 
@@ -55,7 +58,7 @@ make
 
 ## License
 
-This library is under GNU GPL v3 license. If you need business license, don't hesitate to contact [me](mailto:zdenek.skulinek\@robotea.com\?subject\=License%20for%20AMFNV1a).
+This library is under MIT license.
 
 ## Contribute
 
