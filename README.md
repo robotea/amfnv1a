@@ -62,7 +62,7 @@ This library is under MIT license.
 
 ## Contribute
 
-Please contact [me](mailto:zdenek.skulinek\@robotea.com\?subject\=License%20for%20AMFNV1a).
+Please contact [me](mailto:zdenek.skulinek\@robotea.com\?subject\=Contribute%20for%20AMFNV1a).
 
 ## Ask for help
 
